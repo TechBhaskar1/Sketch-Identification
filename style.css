@@ -1,0 +1,40 @@
+body{
+    background: rgb(255, 202, 58);
+}
+h1{
+    background:cornsilk ;
+    padding: 10px;
+    font-variant: small-caps;
+    color: black;
+    font-size: 40px;
+
+}
+#showSketch{
+    float: right;
+}
+p{
+    font-size:20px ;
+}
+.btn-danger{
+    padding: 10px;
+}
+.btn-danger:hover{
+    cursor:pointer;
+    background: white;
+    color: black;
+    border: 2px solid red;
+}
+canvas{
+    margin-top: 30px;
+    border: white 20px solid;
+    animation: example infinite 4s;
+    border-radius: 20px;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px gray;
+    }
+    to{
+        box-shadow: 1px 1px 38px white; 
+    }
+}
